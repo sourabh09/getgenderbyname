@@ -20,12 +20,14 @@ text-align: left;
 font-family: 'Damion', cursive;
 }
 .extra{
-  height: 30px;
   text-align: center;
   font-family: 'Bebas Neue', cursive;
   font-size: 30px;
-  margin-top: 50px;
+  margin-top: 50px!important;
   color: #343637;
+  max-width: 300px;
+  margin:0 auto;
+  line-height: 1.2;
 }
 .mdl-button{
   background-color: #EB1537 !important;
