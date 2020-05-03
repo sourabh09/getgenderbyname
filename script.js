@@ -6,7 +6,8 @@ function getData() {
         alert("Enter name first!")
         return false
     }
-
+    $(".dummy").css("display","block");
+      $(".info").html("");
     $.ajax({
 
         url: 'https://api.genderize.io/?name=' + name,
@@ -15,14 +16,14 @@ function getData() {
 
             console.log(data);
 
-            $(".info").html("");
+          
 
             if (data.gender == "male") {
 
-                url = "male.png"
+                url = "male.PNG"
 
             } else {
-                url = "female.png"
+                url = "female.PNG"
             }
 
             var accuracy = data.probability * 100 + "%";
@@ -34,8 +35,8 @@ function getData() {
             }
 
     })
-
-            $(".info").css("display","block");
+             $(".dummy").css("display","none");
+            $(".info").fadeIn();
             $(".extra").text("");
 
 }
