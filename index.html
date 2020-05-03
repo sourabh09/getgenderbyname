@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Get gender by name</title>
+  <title>Get gender</title>
   <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="robots" content="index, follow"/>
@@ -10,7 +10,7 @@
   <meta name="mobile-web-app-capable" content="yes"/>
   <meta name="apple-mobile-web-app-capable" content="yes"/>
   <link rel="shortcut icon" href="favicon.ico" />
-  <meta name="apple-mobile-web-app-title" content="Get gender by name"/>
+  <meta name="apple-mobile-web-app-title" content="Get gender"/>
   <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
   <link rel="apple-touch-icon" href="icon.png"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -22,7 +22,7 @@
   <script src="script.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<header>Get gender by name</header>
+<header>Get gender</header>
 <body>
 <div class="container">
   <div class="dummy">
@@ -31,8 +31,8 @@
 <div class="inputsection">
 <form action="javascript:void(0);">
   <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-    <input style="color:#000" onkeypress="return AvoidSpace(event)" class="mdl-textfield__input"  type="text" id="name" placeholder="" size="50" autocomplete="off">
-    <label class="mdl-textfield__label" type="submit" for="sample3">Enter first name...</label>
+    <input onkeypress="return AvoidSpace(event)" class="mdl-textfield__input"  type="text" id="name" placeholder="Enter first name..." size="50" autocomplete="off">
+  <!--   <label class="mdl-textfield__label" type="submit" for="sample3">Enter first name...</label> -->
   </div><br>
   <button style="color:#FFF" onclick="getData()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
     SUBMIT
