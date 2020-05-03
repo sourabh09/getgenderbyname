@@ -20,10 +20,10 @@ function getData() {
 
             if (data.gender == "male") {
 
-                url = "male.PNG"
+                url = "male.png"
 
             } else {
-                url = "female.PNG"
+                url = "female.png"
             }
 
             var accuracy = data.probability * 100 + "%";
