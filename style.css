@@ -12,7 +12,7 @@ body{
 }
 header{
 background-color:#000;
-font-size:2em;
+font-size:40px;
 color: #f0002f;
 padding:15px;
 margin-bottom:10px;
@@ -28,10 +28,6 @@ font-family: 'Bebas Neue', cursive;
   max-width: 300px;
   margin:0 auto;
   line-height: 1.2;
-}
-.mdl-button{
-  background-color: #EB1537 !important;
-  color: #fff!important; 
 }
 
 .blankdiv{
@@ -79,5 +75,15 @@ display: none;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+}
+.sbutton{
+  border: 1px solid black;
+  background-color: #EB1537;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 104px;
+  outline: 0px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
 }
 
